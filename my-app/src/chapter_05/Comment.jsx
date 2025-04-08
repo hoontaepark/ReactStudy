@@ -17,7 +17,7 @@ const style = {
         height: 50,
         borderRaduis: 25,
     },
-    contenContainer:{
+    contentContainer:{
         marginLeft:8,
         display:"flex",
         flexDirection:"column",
@@ -38,10 +38,21 @@ const style = {
 
 function Comment(props){
     return(
-        <div>
-            <h1>first component</h1>
-        </div>
+        <div style={style.wrapper}>
+            <div style={style.imageContainer}>
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/99/Portrait_Placeholder.png"
+                    style={style.image}
+                />
+            </div>
 
+            <div style={style.contentContainer}>
+                <span style={style.nameText}>MR.Kim</span>
+                <span style={style.commentText}>
+                            first component
+                </span>
+            </div>
+        </div>
     );
 }
 
