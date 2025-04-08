@@ -47,10 +47,8 @@ function Comment(props){
             </div>
 
             <div style={style.contentContainer}>
-                <span style={style.nameText}>{props.nameText}</span>
-                <span style={style.commentText}>{props.commentText}
-                            first component
-                </span>
+                <span style={style.nameText}>{props.name}</span>
+                <span style={style.commentText}>{props.comment}</span>
             </div>
         </div>
     );
