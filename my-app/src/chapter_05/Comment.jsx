@@ -47,8 +47,8 @@ function Comment(props){
             </div>
 
             <div style={style.contentContainer}>
-                <span style={style.nameText}>MR.Kim</span>
-                <span style={style.commentText}>
+                <span style={style.nameText}>{props.nameText}</span>
+                <span style={style.commentText}>{props.commentText}
                             first component
                 </span>
             </div>
