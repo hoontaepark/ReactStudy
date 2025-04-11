@@ -12,7 +12,7 @@ function Accommodate(){
         console.log('isFull:', isFull);
     });
 
-    useEffecy(()=>{
+    useEffect(()=>{
         setIsFull(count >= MAX_CAPACITY);
         console.log(`Current count value: ${count}`);
         
@@ -28,7 +28,7 @@ function Accommodate(){
             <button onClick={decreaseCount}>퇴장</button>
 
             {isFull && <p style={{color: "red"}}>정원이 가득찼습니다.</p>}
-
+            
         </div>
     );
 }
