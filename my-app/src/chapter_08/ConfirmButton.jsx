@@ -22,7 +22,7 @@ class ConfirmButton extends React.Component {
         return (
             <button
                 onClick={this.handleConfirm}
-                disabled={this.state.isConfirmes}                
+                disabled={this.state.isConfirmed}                
             >
                 {this.state.isConfirmed ? "확인됨":"확인하기"}
 
