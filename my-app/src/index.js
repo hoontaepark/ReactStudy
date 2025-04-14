@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library';
 import CommentList from './chapter_05/CommentList';
 import Accommodate from './chapter_07/Accommodate';
-
+import ConfirmButton from './chapter_08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,7 @@ root.render(
     <App />
     <CommentList></CommentList>
     <Accommodate></Accommodate>
+    <ConfirmButton></ConfirmButton>
     document.getElementById('root')
   </React.StrictMode>
 );
