@@ -1,7 +1,7 @@
 import React, {useState} from  "react";
 
 function ConfirmButton(props){
-    const [isConfirmesd, setIsConfirmed] = useState(false);
+    const [isConfirmed, setIsConfirmed] = useState(false);
     
     const handleConfirm = () => {
         setIsConfirmed((prevIsConfirmed)=>!prevIsConfirmed);
